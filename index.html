@@ -18,9 +18,9 @@
                <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
                <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
                <li class="nav-item"><a class="nav-link" href="#About Me">About Me</a></li>
+               <li class="nav-item"><a class="nav-link" href="#English">English</a></li>
                <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
                <li class="nav-item"><a class="nav-link" href="#Code">Code</a></li>
-               <li class="nav-item"><a class="nav-link" href="#English">English</a></li>
           </ul>
      </nav>
 </div>
@@ -28,7 +28,7 @@
 
 <main class="main">
      <div class="container main-container">
-          <section class="section" id="Profile">
+          <section class="container">
                <img class="photo" src="assets/img/photo_2023-07-08_15-38-44.jpg" alt="my photo">
                <h1 class="section-title">Sasha Evdokimko</h1>
           </section>
@@ -49,20 +49,22 @@
                     <li><b>tg:</b> @sanroflan</li>
                </ul>
           </section>
+          <section class="section" id="English">
+               <h2>English</h2>
+               <ul class="list">
+                    <li><b>Russian:</b> native</li>
+                    <li><b>English:</b> Between B1 and B2</li>
+               </ul>
+          </section>
           <section class="section" id="Code">
-               <h2>Code</h2>
+               <h2>Code example</h2>
+               <div class="code">
                <pre>function multiply(a, b){
                     return a * b
                     }
                </pre>
+               </div>
 
-          </section>
-          <section class="section" id="English">
-               <h2>English</h2>
-               <ul class="list">
-                    <li>Russian: native</li>
-                    <li>English: Between B1 and B2</li>
-               </ul>
           </section>
 
      </div>
@@ -70,10 +72,14 @@
 </main>
 <footer class="footer">
      <div class="container footer-container">
-     @2023
+          <section>
+     <b>@2023</b>
+     </section>
+     <section class="ghub-school-links">
      <a target="_blank" href="https://github.com/sanroflan?tab=repositories">ghub</a>
      <a target="_blank" class="school-logo" href="https://rs.school/js-stage0/"><img src="assets/img/rs_school_js.svg" alt="rsschool logo"></a>
-     </div>
+     </section>
+</div>
 
 
 

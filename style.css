@@ -14,10 +14,7 @@
 * {
    box-sizing: border-box;
 }
-.my-photo{
-     width: 300px;
-     height: 400px;
-}
+
 
 .container{
      max-width: 1440px;
@@ -69,13 +66,20 @@
      .section{
           width: 100%;
      }
+     .nav-list a:hover{
+          text-decoration: underline;
+     }
+}
+
+.code {
+     background-color: gray;
 }
 
 .photo{
-     width: 45%;
-     height: 70%;
-     border-radius: 30px;
-     border: 1px solid black;
+     width: 250px;
+     height: 250px;
+     border-radius: 50px;
+     border: 2px solid black;
 }
 
 .header{
@@ -90,7 +94,7 @@
      font-size: 30px;
      display: flex;
      justify-content:space-between;
-     align-items: center;
+     align-items:center;
 }
 .footer-container a{
      font-weight: 400;
@@ -100,12 +104,18 @@
 }
 
 .footer-container a:hover{
-     text-decoration-color: chocolate;
      color: black;
      cursor:url(assets/img/cursor.jpg),auto;
 }
 
 .school-logo{
-     width: 10%;
-     height: 10%;
+     width: 30%;
+     height: 30%;
+}
+
+.ghub-school-links{
+     width: 300px;
+     height: 40px;
+     display:flex;
+     justify-content: space-between;
 }
