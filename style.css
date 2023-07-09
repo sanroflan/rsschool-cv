@@ -1,0 +1,120 @@
+.body{
+     font-family: 'Open Sans', sans-serif;
+     min-height: 100vh;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     background-color:rgb(176, 230, 173);
+     font-size: 18px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+
+.container{
+     max-width: 1440px;
+     margin: 0 auto;
+}
+
+.nav-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:start;
+     align-items: flex-start;
+     list-style: none;
+     font-size: 20px;
+     font-weight: 700;
+}
+
+.nav-link{
+     padding: 20px 10px;
+     line-height: 30px;
+     color: rgb(53, 126, 40);
+     text-decoration: none;
+     transition: .3s;
+
+}
+.nav-list a:hover{
+     color:rgb(10, 88, 63);
+     cursor:url(assets/img/cursor.jpg),auto;
+     text-decoration:  overline;
+}
+
+.list{
+     list-style:circle;
+}
+
+.main-container{
+     display: flex;
+     flex-wrap: wrap;
+
+}
+
+.section{
+     width: 30%;
+     margin: 10px;
+
+}
+
+@media(max-width:768px){
+     .section{
+          width: 100%;
+     }
+     .nav-list a:hover{
+          text-decoration: underline;
+     }
+}
+
+.code {
+     background-color: gray;
+}
+
+.photo{
+     width: 250px;
+     height: 250px;
+     border-radius: 50px;
+     border: 2px solid black;
+}
+
+.header{
+     background-color: aquamarine;
+}
+
+.footer{
+     background-color:aquamarine;
+}
+
+.footer-container{
+     font-size: 30px;
+     display: flex;
+     justify-content:space-between;
+     align-items:center;
+}
+.footer-container a{
+     font-weight: 400;
+     color: rgb(10, 88, 63);
+     text-decoration: none;
+     transition: .3s;
+}
+
+.footer-container a:hover{
+     color: black;
+     cursor:url(assets/img/cursor.jpg),auto;
+}
+
+.school-logo{
+     width: 30%;
+     height: 30%;
+}
+
+.ghub-school-links{
+     width: 300px;
+     height: 40px;
+     display:flex;
+     justify-content: space-between;
+}
+
