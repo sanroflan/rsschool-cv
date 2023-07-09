@@ -22,7 +22,7 @@ function multiply(a, b){
 ```
 ## Languages:
 * Russian: native
-* English: Beetween B1 and B2
+* English: Between B1 and B2
 
 
 
